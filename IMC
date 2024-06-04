@@ -1,0 +1,15 @@
+#Disciplina: Fundamentos de Programação
+#Professor: Fábio Peral
+#Descrição: calcular IMC
+#autor: Victor Hugo Afonso de Lima Silveira Paiva
+#Data: 31/05/2024
+
+def imc(peso, altura):
+    imc = peso / (altura * altura)
+    return imc
+
+peso = float(input('digite o seu peso (em KG): '))
+altura = float(input('digite a sua altura (em metros): '))
+
+
+print('o seu IMC é:',peso / (altura*altura))
